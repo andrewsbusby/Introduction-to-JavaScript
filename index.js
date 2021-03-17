@@ -182,7 +182,7 @@ Using the miles function below do the following:
 */
 
 function miles(kilometers){
-    return kilometers / 1.609;
+    return kilometers * .621371;
   }
   console.log(miles(10));
 
